@@ -17,3 +17,8 @@ jobs:
         shell: bash
         run: |
           python3 main.py
+
+      - name: 🚀 Test
+        shell: bash
+        run: |
+          python3 test.py
